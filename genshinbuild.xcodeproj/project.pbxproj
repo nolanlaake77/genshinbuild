@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A74F453D29AE69320064E9E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F453C29AE69320064E9E9 /* AppDelegate.swift */; };
+		A74F453F29AE69320064E9E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F453E29AE69320064E9E9 /* SceneDelegate.swift */; };
+		A74F454129AE69320064E9E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F454029AE69320064E9E9 /* ViewController.swift */; };
+		A74F454429AE69320064E9E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74F454229AE69320064E9E9 /* Main.storyboard */; };
+		A74F454629AE69340064E9E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74F454529AE69340064E9E9 /* Assets.xcassets */; };
+		A74F454929AE69340064E9E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74F454729AE69340064E9E9 /* LaunchScreen.storyboard */; };
+		A74F455429AE69340064E9E9 /* genshinbuildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F455329AE69340064E9E9 /* genshinbuildTests.swift */; };
+		A74F455E29AE69340064E9E9 /* genshinbuildUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F455D29AE69340064E9E9 /* genshinbuildUITests.swift */; };
+		A74F456029AE69340064E9E9 /* genshinbuildUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F455F29AE69340064E9E9 /* genshinbuildUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A74F455029AE69340064E9E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74F453129AE69320064E9E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A74F453829AE69320064E9E9;
+			remoteInfo = genshinbuild;
+		};
+		A74F455A29AE69340064E9E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74F453129AE69320064E9E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A74F453829AE69320064E9E9;
+			remoteInfo = genshinbuild;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A74F453929AE69320064E9E9 /* genshinbuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = genshinbuild.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74F453C29AE69320064E9E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A74F453E29AE69320064E9E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A74F454029AE69320064E9E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A74F454329AE69320064E9E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A74F454529AE69340064E9E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A74F454829AE69340064E9E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A74F454A29AE69340064E9E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74F454F29AE69340064E9E9 /* genshinbuildTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = genshinbuildTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74F455329AE69340064E9E9 /* genshinbuildTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genshinbuildTests.swift; sourceTree = "<group>"; };
+		A74F455929AE69340064E9E9 /* genshinbuildUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = genshinbuildUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74F455D29AE69340064E9E9 /* genshinbuildUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genshinbuildUITests.swift; sourceTree = "<group>"; };
+		A74F455F29AE69340064E9E9 /* genshinbuildUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genshinbuildUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A74F453629AE69320064E9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74F454C29AE69340064E9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74F455629AE69340064E9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A74F453029AE69320064E9E9 = {
+			isa = PBXGroup;
+			children = (
+				A74F453B29AE69320064E9E9 /* genshinbuild */,
+				A74F455229AE69340064E9E9 /* genshinbuildTests */,
+				A74F455C29AE69340064E9E9 /* genshinbuildUITests */,
+				A74F453A29AE69320064E9E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A74F453A29AE69320064E9E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A74F453929AE69320064E9E9 /* genshinbuild.app */,
+				A74F454F29AE69340064E9E9 /* genshinbuildTests.xctest */,
+				A74F455929AE69340064E9E9 /* genshinbuildUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A74F453B29AE69320064E9E9 /* genshinbuild */ = {
+			isa = PBXGroup;
+			children = (
+				A74F453C29AE69320064E9E9 /* AppDelegate.swift */,
+				A74F453E29AE69320064E9E9 /* SceneDelegate.swift */,
+				A74F454029AE69320064E9E9 /* ViewController.swift */,
+				A74F454229AE69320064E9E9 /* Main.storyboard */,
+				A74F454529AE69340064E9E9 /* Assets.xcassets */,
+				A74F454729AE69340064E9E9 /* LaunchScreen.storyboard */,
+				A74F454A29AE69340064E9E9 /* Info.plist */,
+			);
+			path = genshinbuild;
+			sourceTree = "<group>";
+		};
+		A74F455229AE69340064E9E9 /* genshinbuildTests */ = {
+			isa = PBXGroup;
+			children = (
+				A74F455329AE69340064E9E9 /* genshinbuildTests.swift */,
+			);
+			path = genshinbuildTests;
+			sourceTree = "<group>";
+		};
+		A74F455C29AE69340064E9E9 /* genshinbuildUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A74F455D29AE69340064E9E9 /* genshinbuildUITests.swift */,
+				A74F455F29AE69340064E9E9 /* genshinbuildUITestsLaunchTests.swift */,
+			);
+			path = genshinbuildUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A74F453829AE69320064E9E9 /* genshinbuild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74F456329AE69340064E9E9 /* Build configuration list for PBXNativeTarget "genshinbuild" */;
+			buildPhases = (
+				A74F453529AE69320064E9E9 /* Sources */,
+				A74F453629AE69320064E9E9 /* Frameworks */,
+				A74F453729AE69320064E9E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = genshinbuild;
+			productName = genshinbuild;
+			productReference = A74F453929AE69320064E9E9 /* genshinbuild.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A74F454E29AE69340064E9E9 /* genshinbuildTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74F456629AE69340064E9E9 /* Build configuration list for PBXNativeTarget "genshinbuildTests" */;
+			buildPhases = (
+				A74F454B29AE69340064E9E9 /* Sources */,
+				A74F454C29AE69340064E9E9 /* Frameworks */,
+				A74F454D29AE69340064E9E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A74F455129AE69340064E9E9 /* PBXTargetDependency */,
+			);
+			name = genshinbuildTests;
+			productName = genshinbuildTests;
+			productReference = A74F454F29AE69340064E9E9 /* genshinbuildTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A74F455829AE69340064E9E9 /* genshinbuildUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74F456929AE69340064E9E9 /* Build configuration list for PBXNativeTarget "genshinbuildUITests" */;
+			buildPhases = (
+				A74F455529AE69340064E9E9 /* Sources */,
+				A74F455629AE69340064E9E9 /* Frameworks */,
+				A74F455729AE69340064E9E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A74F455B29AE69340064E9E9 /* PBXTargetDependency */,
+			);
+			name = genshinbuildUITests;
+			productName = genshinbuildUITests;
+			productReference = A74F455929AE69340064E9E9 /* genshinbuildUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A74F453129AE69320064E9E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A74F453829AE69320064E9E9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A74F454E29AE69340064E9E9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A74F453829AE69320064E9E9;
+					};
+					A74F455829AE69340064E9E9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A74F453829AE69320064E9E9;
+					};
+				};
+			};
+			buildConfigurationList = A74F453429AE69320064E9E9 /* Build configuration list for PBXProject "genshinbuild" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A74F453029AE69320064E9E9;
+			productRefGroup = A74F453A29AE69320064E9E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A74F453829AE69320064E9E9 /* genshinbuild */,
+				A74F454E29AE69340064E9E9 /* genshinbuildTests */,
+				A74F455829AE69340064E9E9 /* genshinbuildUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A74F453729AE69320064E9E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74F454929AE69340064E9E9 /* LaunchScreen.storyboard in Resources */,
+				A74F454629AE69340064E9E9 /* Assets.xcassets in Resources */,
+				A74F454429AE69320064E9E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74F454D29AE69340064E9E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74F455729AE69340064E9E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A74F453529AE69320064E9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74F454129AE69320064E9E9 /* ViewController.swift in Sources */,
+				A74F453D29AE69320064E9E9 /* AppDelegate.swift in Sources */,
+				A74F453F29AE69320064E9E9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74F454B29AE69340064E9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74F455429AE69340064E9E9 /* genshinbuildTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74F455529AE69340064E9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74F456029AE69340064E9E9 /* genshinbuildUITestsLaunchTests.swift in Sources */,
+				A74F455E29AE69340064E9E9 /* genshinbuildUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A74F455129AE69340064E9E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A74F453829AE69320064E9E9 /* genshinbuild */;
+			targetProxy = A74F455029AE69340064E9E9 /* PBXContainerItemProxy */;
+		};
+		A74F455B29AE69340064E9E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A74F453829AE69320064E9E9 /* genshinbuild */;
+			targetProxy = A74F455A29AE69340064E9E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A74F454229AE69320064E9E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74F454329AE69320064E9E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A74F454729AE69340064E9E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74F454829AE69340064E9E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A74F456129AE69340064E9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A74F456229AE69340064E9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A74F456429AE69340064E9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4268FG4XJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = genshinbuild/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NolanLaake.genshinbuild;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A74F456529AE69340064E9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4268FG4XJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = genshinbuild/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NolanLaake.genshinbuild;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A74F456729AE69340064E9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4268FG4XJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NolanLaake.genshinbuildTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/genshinbuild.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/genshinbuild";
+			};
+			name = Debug;
+		};
+		A74F456829AE69340064E9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4268FG4XJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NolanLaake.genshinbuildTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/genshinbuild.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/genshinbuild";
+			};
+			name = Release;
+		};
+		A74F456A29AE69340064E9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4268FG4XJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NolanLaake.genshinbuildUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = genshinbuild;
+			};
+			name = Debug;
+		};
+		A74F456B29AE69340064E9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4268FG4XJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NolanLaake.genshinbuildUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = genshinbuild;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A74F453429AE69320064E9E9 /* Build configuration list for PBXProject "genshinbuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74F456129AE69340064E9E9 /* Debug */,
+				A74F456229AE69340064E9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74F456329AE69340064E9E9 /* Build configuration list for PBXNativeTarget "genshinbuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74F456429AE69340064E9E9 /* Debug */,
+				A74F456529AE69340064E9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74F456629AE69340064E9E9 /* Build configuration list for PBXNativeTarget "genshinbuildTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74F456729AE69340064E9E9 /* Debug */,
+				A74F456829AE69340064E9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74F456929AE69340064E9E9 /* Build configuration list for PBXNativeTarget "genshinbuildUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74F456A29AE69340064E9E9 /* Debug */,
+				A74F456B29AE69340064E9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A74F453129AE69320064E9E9 /* Project object */;
+}
