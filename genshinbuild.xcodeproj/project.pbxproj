@@ -16,6 +16,13 @@
 		A74F455429AE69340064E9E9 /* genshinbuildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F455329AE69340064E9E9 /* genshinbuildTests.swift */; };
 		A74F455E29AE69340064E9E9 /* genshinbuildUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F455D29AE69340064E9E9 /* genshinbuildUITests.swift */; };
 		A74F456029AE69340064E9E9 /* genshinbuildUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F455F29AE69340064E9E9 /* genshinbuildUITestsLaunchTests.swift */; };
+		A74F456D29AE6B350064E9E9 /* AnemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F456C29AE6B350064E9E9 /* AnemoViewController.swift */; };
+		A74F457029AE6D910064E9E9 /* FaruzanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F456F29AE6D910064E9E9 /* FaruzanViewController.swift */; };
+		A74F457229AE6FD10064E9E9 /* CryoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F457129AE6FD10064E9E9 /* CryoViewController.swift */; };
+		A74F457529AE94E30064E9E9 /* DendroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F457429AE94E30064E9E9 /* DendroViewController.swift */; };
+		A74F457729AE95F40064E9E9 /* AlhaithamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F457629AE95F30064E9E9 /* AlhaithamViewController.swift */; };
+		A74F45B529AFB9700064E9E9 /* TighnariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F45B429AFB9700064E9E9 /* TighnariViewController.swift */; };
+		A74F45B929AFBA3A0064E9E9 /* NahidaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F45B829AFBA3A0064E9E9 /* NahidaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		A74F455929AE69340064E9E9 /* genshinbuildUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = genshinbuildUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74F455D29AE69340064E9E9 /* genshinbuildUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genshinbuildUITests.swift; sourceTree = "<group>"; };
 		A74F455F29AE69340064E9E9 /* genshinbuildUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genshinbuildUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A74F456C29AE6B350064E9E9 /* AnemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnemoViewController.swift; sourceTree = "<group>"; };
+		A74F456F29AE6D910064E9E9 /* FaruzanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaruzanViewController.swift; sourceTree = "<group>"; };
+		A74F457129AE6FD10064E9E9 /* CryoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryoViewController.swift; sourceTree = "<group>"; };
+		A74F457429AE94E30064E9E9 /* DendroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DendroViewController.swift; sourceTree = "<group>"; };
+		A74F457629AE95F30064E9E9 /* AlhaithamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlhaithamViewController.swift; sourceTree = "<group>"; };
+		A74F45B429AFB9700064E9E9 /* TighnariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TighnariViewController.swift; sourceTree = "<group>"; };
+		A74F45B829AFBA3A0064E9E9 /* NahidaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NahidaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				A74F453C29AE69320064E9E9 /* AppDelegate.swift */,
+				A74F456E29AE6D670064E9E9 /* CharacterViewControllers */,
+				A74F457329AE6FDE0064E9E9 /* ElementViewControllers */,
 				A74F453E29AE69320064E9E9 /* SceneDelegate.swift */,
 				A74F454029AE69320064E9E9 /* ViewController.swift */,
 				A74F454229AE69320064E9E9 /* Main.storyboard */,
@@ -125,6 +141,27 @@
 				A74F455F29AE69340064E9E9 /* genshinbuildUITestsLaunchTests.swift */,
 			);
 			path = genshinbuildUITests;
+			sourceTree = "<group>";
+		};
+		A74F456E29AE6D670064E9E9 /* CharacterViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A74F45B429AFB9700064E9E9 /* TighnariViewController.swift */,
+				A74F45B829AFBA3A0064E9E9 /* NahidaViewController.swift */,
+				A74F457629AE95F30064E9E9 /* AlhaithamViewController.swift */,
+				A74F456F29AE6D910064E9E9 /* FaruzanViewController.swift */,
+			);
+			path = CharacterViewControllers;
+			sourceTree = "<group>";
+		};
+		A74F457329AE6FDE0064E9E9 /* ElementViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A74F457429AE94E30064E9E9 /* DendroViewController.swift */,
+				A74F457129AE6FD10064E9E9 /* CryoViewController.swift */,
+				A74F456C29AE6B350064E9E9 /* AnemoViewController.swift */,
+			);
+			path = ElementViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +295,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74F457729AE95F40064E9E9 /* AlhaithamViewController.swift in Sources */,
 				A74F454129AE69320064E9E9 /* ViewController.swift in Sources */,
+				A74F45B529AFB9700064E9E9 /* TighnariViewController.swift in Sources */,
+				A74F457229AE6FD10064E9E9 /* CryoViewController.swift in Sources */,
 				A74F453D29AE69320064E9E9 /* AppDelegate.swift in Sources */,
 				A74F453F29AE69320064E9E9 /* SceneDelegate.swift in Sources */,
+				A74F457529AE94E30064E9E9 /* DendroViewController.swift in Sources */,
+				A74F456D29AE6B350064E9E9 /* AnemoViewController.swift in Sources */,
+				A74F457029AE6D910064E9E9 /* FaruzanViewController.swift in Sources */,
+				A74F45B929AFBA3A0064E9E9 /* NahidaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
